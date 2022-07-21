@@ -21,12 +21,11 @@ module.exports = {
         "indent": ["off", 2],
         "react/display-name": ["off"],
         "react/jsx-indent": ["error", 2],
-        "comma-dangle": ["error", "never"],
+        "comma-dangle": ["off"],
         "no-console": ["off"],
         "import/no-unresolved": ["off"],
         "react/no-find-dom-node": ["off"],
-        "no-empty": ["off"]
-        // "react/no-unescaped-entities": 0
+        "react/no-danger-with-children": ["off"],
+        "react/no-deprecated": ["off"]
     }
 };
-
