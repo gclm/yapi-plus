@@ -34,7 +34,7 @@
 
 <span class="list-index">3</span>点击左侧的 “测试集合” 使用[测试集](./case.md)功能。
 
-<span class="list-index">4</span>点击二级导航的“设置”，项目组长即可编辑项目信息和管理成员列表。
+<span class="list-index">4</span>点击二级导航的“设置”，项目管理员即可编辑项目信息和管理成员列表。
 
 <span class="list-index">5</span>点击二级导航的“动态”，即可查看项目的操作日志。
 

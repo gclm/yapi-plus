@@ -303,7 +303,7 @@ export default class GroupList extends Component {
             </Row>
             <Row gutter={6} className="modal-input">
               <Col span="5">
-                <div className="label">组长：</div>
+                <div className="label">管理员：</div>
               </Col>
               <Col span="15">
                 <UsernameAutoComplete callbackState={this.onUserSelect} />

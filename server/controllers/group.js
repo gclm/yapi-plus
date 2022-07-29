@@ -9,7 +9,7 @@ const interfaceCaseModel = require('../models/interfaceCase.js');
 const _ = require('underscore')
 
 const rolename = {
-  owner: '组长',
+  owner: '管理员',
   dev: '开发者',
   guest: '访客'
 };
@@ -119,7 +119,7 @@ class groupController extends baseController {
    * @foldnumber 10
    * @param {String} group_name 项目分组名称，不能为空
    * @param {String} [group_desc] 项目分组描述
-   * @param {String} [owner_uids]  组长[uid]
+   * @param {String} [owner_uids]  管理员[uid]
    * @returns {Object}
    * @example ./api/group/add.json
    */

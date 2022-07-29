@@ -456,7 +456,7 @@ class ProjectMessage extends Component {
                 <RadioGroup>
                   <Radio value="private" className="radio">
                     <Icon type="lock" />私有<br />
-                    <span className="radio-desc">只有组长和项目开发者可以索引并查看项目信息</span>
+                    <span className="radio-desc">只有管理员和项目开发者可以索引并查看项目信息</span>
                   </Radio>
                   <br />
                   {projectMsg.role === 'admin' && <Radio value="public" className="radio">
@@ -481,7 +481,7 @@ class ProjectMessage extends Component {
             </Button>
           </div>
 
-          {/* 只有组长和管理员有权限删除项目 */}
+          {/* 只有管理员和管理员有权限删除项目 */}
           {projectMsg.role === 'owner' || projectMsg.role === 'admin' ? (
             <div className="danger-container">
               <div className="title">
@@ -497,7 +497,7 @@ class ProjectMessage extends Component {
                   <div className="card-danger-content">
                     <h3>删除项目</h3>
                     <p>项目一旦删除，将无法恢复数据，请慎重操作！</p>
-                    <p>只有组长和管理员有权限删除项目。</p>
+                    <p>只有管理员和管理员有权限删除项目。</p>
                   </div>
                   <Button
                     type="danger"

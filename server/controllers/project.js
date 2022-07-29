@@ -244,7 +244,7 @@ class projectController extends baseController {
       });
     }
     let uid = this.getUid();
-    // 将项目添加者变成项目组长,除admin以外
+    // 将项目添加者变成项目管理员,除admin以外
     if (this.getRole() !== 'admin') {
       let userdata = await yapi.commons.getUserdata(uid, 'owner');
       await this.Model.addMember(result._id, [userdata]);
@@ -353,7 +353,7 @@ class projectController extends baseController {
       let copyProjectMembers = copyProject.members;
 
       let uid = this.getUid();
-      // 将项目添加者变成项目组长,除admin以外
+      // 将项目添加者变成项目管理员,除admin以外
       if (this.getRole() !== 'admin') {
         let userdata = await yapi.commons.getUserdata(uid, 'owner');
         let check = await this.Model.checkMemberRepeat(copyId, uid);
@@ -658,7 +658,7 @@ class projectController extends baseController {
 
     params.role = ['owner', 'dev', 'guest'].find(v => v === params.role) || 'dev';
     let rolename = {
-      owner: '组长',
+      owner: '管理员',
       dev: '开发者',
       guest: '访客'
     };

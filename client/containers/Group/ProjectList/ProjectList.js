@@ -176,7 +176,7 @@ class ProjectList extends Component {
                 <Button type="primary">添加项目</Button>
               </Link>
             ) : (
-              <Tooltip title="您没有权限,请联系该分组组长或管理员">
+              <Tooltip title="您没有权限,请联系该分组管理员或管理员">
                 <Button type="primary" disabled>
                   添加项目
                 </Button>

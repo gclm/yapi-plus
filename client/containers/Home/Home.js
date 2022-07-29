@@ -287,11 +287,11 @@ const HomeGuest = () => (
               <div className="section-block block-first">
                 <h4>超级管理员(* N)</h4>
                 <p className="item"> - 创建分组</p>
-                <p className="item"> - 分配组长</p>
+                <p className="item"> - 分配管理员</p>
                 <p className="item"> - 管理所有成员信息</p>
               </div>
               <div className="section-block block-second">
-                <h4>组长(* N)</h4>
+                <h4>管理员(* N)</h4>
                 <p className="item"> - 创建项目</p>
                 <p className="item"> - 管理分组或项目的信息</p>
                 <p className="item"> - 管理开发者与成员</p>
@@ -311,7 +311,7 @@ const HomeGuest = () => (
             </p>
             <p className="desc">
               YAPI
-              将扁平化管理模式的思想引入到产品的权限管理中，超级管理员拥有最高的权限，并将权限分配给若干组长，超级管理员只需管理组长即可，实际上管理YAPI各大分组与项目的是“组长”。组长对分组或项目负责，一般由BU负责人/项目负责人担任。
+              将扁平化管理模式的思想引入到产品的权限管理中，超级管理员拥有最高的权限，并将权限分配给若干管理员，超级管理员只需管理管理员即可，实际上管理YAPI各大分组与项目的是“管理员”。管理员对分组或项目负责，一般由BU负责人/项目负责人担任。
             </p>
           </Col>
         </Row>

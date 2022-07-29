@@ -125,7 +125,7 @@ module.exports = {
 //       "title": "管理学院",
 //       "banner": {
 //           "title": "管理学院",
-//           "description": "超级管理员、分组/项目组长的学院。"
+//           "description": "超级管理员、分组/项目管理员的学院。"
 //       },
 //       "content": {
 //           "sidebar": true,
