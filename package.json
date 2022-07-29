@@ -43,7 +43,6 @@
     "dingtalk-robot-sender": "^1.2.0",
     "easy-json-schema": "0.0.2-beta",
     "fs-extra": "^3.0.1",
-    "fsevents": "^2.3.2",
     "generate-schema": "^2.6.0",
     "immer": "^1.1.1",
     "js-base64": "^2.3.2",
